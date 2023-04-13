@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Github Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d04d1886f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logss.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Social Media</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Designer</p> -->
+                <h1>Hi, I'm <span>Jona Crebillo</span> <br> From Philippines</h1>
+            </div>
+        </div>
+<!--------------------------------------- ABOUT ------------------------------------------>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3><br>Hello, Im Jona Mae, welcome to my personal website!<br></h3>
+                    <p></p><br>A third (3rd) year Bachelor of Science in Information Technology student at Jose Maria College Foundation Inc.
+                    I was born on November 20, 2001. I study about technology, programming, networking, and technical theory.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Graphics Design</span><br>Adobe Photoshop</li>
+                                <li><span>Programming</span><br>C++<br>Python</li>
+                                <li><span>Microsoft Office Expertise</span><br>MS Word Beginner and Intermediate<br>MS Excel Beginner</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>December 2021, December 2022 - January 2023</span><br>Graphics Designer at Crown and Paw</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Tertiary (2019 - Present)</span><br>Jose Maria College Foundation Inc.<br>
+                                Bachelor of Science in Information Technology</li>
+                                <li><span>Secondary (2017-2019)</span><br>Monkayo National High School - Senior High School<br>
+                                Technical-Vocational (Information Communication and Technology)</li>
+                                <li><span>Secondary (2013-2017)</span><br>Monkayo National High School - Junior High School</li>
+                                <li><span>Primary (2007 - 2013)</span><br>Moncayo Central Elementary School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------Services(Social Media)------------------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Social Media</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <h2>Facebook</h2>
+                <h3>Jona Crebillo<br></h3>
+                <a href="https://www.facebook.com/jmae.crebillo">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <h2>Instagram</h2>
+                <h3>Jona Crebillo<br></h3>
+                <a href="https://instagram.com/jonameeeeh?igshid=ZmZhODViOGI=">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-snapchat"></i>
+                <h2>Snapchat</h2>
+                <h3>Jona Crebillo<br></h3>
+                <a href="https://www.snapchat.com/add/jonameeehh?share_id=llqtRAmuMb0&locale=en-US">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------Portfolio------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <center>
+            <h1 class="sub-title">PORTFOLIO<br></h1>
+        </center>
+        <h3 class="sub-title"><br>My Work</h3>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/poster.png.jpg">
+                <div class="layer">
+                    <h3>Adobe Photoshop</h3>
+                    <p>My Adobe Photoshop project outputs.</p>
+                    <a href="https://drive.google.com/drive/folders/16ybceCYQa1eoi1kOe72Mm_mT0ubFxM1a?usp=share_link">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pstr.png">
+                <div class="layer">
+                    <h3>Adobe Indesign</h3>
+                    <p>My Adobe Indesign project outputs.</p>
+                    <a href="https://drive.google.com/drive/folders/1hz_WCn32RbNkbXXcHH8gnXiLTu1jtok6?usp=share_link">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/caat.png">
+                <div class="layer">
+                    <h3>Crown and Paw</h3>
+                    <p>My Crown and Paw part time job outputs.</p>
+                    <a href="https://drive.google.com/drive/folders/1mU-hFLwHSp8HuQTnv9xRcAJsGJwO2kVv?usp=share_link">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="sub-title"><br>Video Tutoral</h3>
+        <div class="video">
+            <div class="places1">
+                <h2>How to install Free E-book extension [Video Tutorial]</h2>
+                <iframe src="https://drive.google.com/file/d/1vX6Mp0LQi37oL8BIkZpX7LpYkyvp7zGu/preview" width="1000" height="480" allow="autoplay"></iframe>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <!---->
+        <h3 class="sub-title"><br><br><br><br><br><br><br><br><br>My Certificate</h3>
+        <div class="cert-list">
+            <div class="cert">
+                <img src="images/pythonbeginner.png">
+                <div class="layer2">
+                    <h3>DICT Certificate</h3>
+                    <p>My Department of Information and Communications Technology (DICT) Certificate.</p>
+                    <a href="https://drive.google.com/drive/folders/1gIU4ThBnJHXeT-ZdbU7N8e13CYgnWnzC?usp=share_link">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cert">
+                <img src="images/ai.png.png">
+                <div class="layer2">
+                    <h3>HUAWEI Certificate</h3>
+                    <p>My Huawei iLearning Certificate.</p>
+                    <a href="https://drive.google.com/drive/folders/1nRLhLKWppjz95wHUhZZc1WrPrz3t1Oi0?usp=share_link">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cert">
+                <img src="images/excel.png">
+                <div class="layer2">
+                    <h3>JIA Certificate</h3>
+                    <p>My JIA Seminar Certificate.</p>
+                    <a href="https://drive.google.com/drive/folders/1nafgDk00aIy02bV3L0GdQ2eLzCJrIaeq?usp=share_link">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------Contact------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>jonamae.crebillo@jmc.edu.ph</p>
+                    <p><i class="fa-solid fa-phone"></i>09854589965</p>
+                    <a href="images/cv.pdf" download class="btn download">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn submit">Submit</button>
+                        <span id="msg"></span>
+                    </form>
+                    
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Jona.</p>
+        </div>
+    </div>
+ 
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztxhCOuamVZU5ll5hlRALMJCb-Jk8tQswfLTr7sjFUp0xHXaRm-W4p_TlR2qUo3hJmWg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
